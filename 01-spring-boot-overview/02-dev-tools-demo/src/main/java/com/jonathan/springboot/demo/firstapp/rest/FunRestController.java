@@ -8,4 +8,10 @@ public class FunRestController {
         public String sayHello(){
         return "Hello world!";
     }
+
+    @GetMapping("/workout")
+            public String getDailyWorkout(){
+        return "Run a hard ski";
+            }
+
 }
